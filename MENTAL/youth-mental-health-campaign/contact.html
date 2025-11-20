@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Youth Mental Health Campaign</title>
+  <meta name="description" content="Youth Mental Health Campaign: awareness, resources, and community support.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="YMHC Home">YMHC<span>+</span></a>
+        <nav class="nav" aria-label="Primary">
+          <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="primaryNav">Menu</button>
+          <ul id="primaryNav" class="nav-list">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="resources.html" >Resources</a></li>
+            <li><a href="gallery.html" >Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact & Sign‑Up</h1>
+      <p>Questions, feedback, or want to volunteer? Send us a note.</p>
+    </div>
+  </section>
+
+  <section class="container contact-grid">
+    <form class="card" id="contactForm" aria-describedby="formHint" novalidate>
+      <p id="formHint">Fields marked * are required.</p>
+      <label for="name">Full Name *</label>
+      <input id="name" name="name" type="text" required placeholder="Your name" />
+      <label for="email">Email *</label>
+      <input id="email" name="email" type="email" required placeholder="you@example.com" />
+      <label for="role">I'm interested in</label>
+      <select id="role" name="role">
+        <option value="">Select an option</option>
+        <option>Volunteering</option>
+        <option>Peer Support</option>
+        <option>Workshop Updates</option>
+        <option>General Inquiry</option>
+      </select>
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="5" required placeholder="How can we help?"></textarea>
+      <div class="form-actions">
+        <button class="btn" type="submit">Submit</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+    <aside class="card">
+      <h2>Reach Us</h2>
+      <ul>
+        <li>Email: <a href="mailto:hello@ymhc.example">hello@ymhc.example</a></li>
+        <li>WhatsApp: <a href="https://wa.me/256700000000" target="_blank" rel="noopener">+256 700 000 000</a></li>
+        <li>Instagram: <a href="#">@ymhc_campus</a></li>
+      </ul>
+      <p><em>Note:</em> This is a demo coursework site; form actions are simulated.</p>
+    </aside>
+  </section>
+</main>
+
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Youth Mental Health Campaign (YMHC). All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="assets/docs/YMHC_Guide.pdf" download>Download: Coping Guide (PDF)</a></li>
+          <li><a href="mailto:hello@ymhc.example">hello@ymhc.example</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
